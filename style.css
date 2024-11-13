@@ -42,3 +42,21 @@ p {
     justify-content: space-around; /* Distribuisce lo spazio tra le card */
     padding: 20px;
 }
+/* Stili per i link */ 
+a { 
+    color: #FFD700; 
+    /* Colore di default per i link */ 
+    text-decoration: none; /* Rimuove la sottolineatura */ 
+} 
+a:visited { 
+    color: #FFD700; 
+    /* Colore per i link visitati */ 
+} 
+a:hover { 
+    color: #FFA500; 
+    /* Colore per i link al passaggio del mouse */ 
+} 
+a:active { 
+    color: #FFD700; 
+    /* Colore per i link attivi */
+}
